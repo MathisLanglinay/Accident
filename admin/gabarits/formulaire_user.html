@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            
+            <div>
+            <legend>Please put your informations</legend>
+            <div><p>les champs marqué d'un "*" sont obligatoires</p></div>
+                 <label for="first-name">first-name:*   </label>
+                     <input type="text" name="first-name" placeholder="" maxlength="25" required="required">
+                    </div>
+                    <div>
+                 <label for="last-name">last-name:*</label>
+                     <input type="text" name="last-name" placeholder=" " maxlength="25" required="required">
+                    </div>
+                    <div>
+                 <label for="coordonnées">Login:*</label>
+                     <input type="text" name="coordonnées" placeholder=" " maxlength="16" required="required">
+                    </div>
+                    <div>
+                 <label for=Password">Password:*</label>
+                     <input type="password" name=Password" placeholder="" maxlength="100" required="required">
+                    </div>
+                    <div>
+                 <label for="e-mail">e-mail:*</label>
+                     <input type="email" name="e-mail" placeholder="" maxlength="50" requirxed="required">
+                    </div>                    <div>
+                 <label for="middle-name">middle-name:</label>
+                     <input type="text" name="middle-name" placeholder="" maxlength="25" >
+                    </div>                    <div>
+                        <div>
+                            <!-- Emplacement de l'image  -->
+                            <label for="avatar">avatar</label>
+                            <input type="file" name="avatar">
+                            </div>
+                                <!-- Emplacement de l'auteur -->
+            <div>
+                <select name="rôle" id="rôle" required="required">
+                    <option value="">rôle :*</option>
+                    <option value="%UUIDRole%">Administrateur</option>
+                    <option value="%UUIDRole%">Redacteur</option>
+                </select>
+            </div>
+            <div>
+                <select name="Langue" id="Langue" required="required">
+                    <option value="">Langue :</option>
+                    <option value="%UUIDLangue%">Français</option>
+                    <option value="%UUIDLangue%">Anglais</option>
+                    <option value="%UUIDLangue%">Espagnol</option>
+                </select>
+            </div>
+                   <input type="hidden" value="%UUID%">
+</div>
+    
+            <input class="boutons" type="reset">
+            <input class="boutons" type="submit">
+    
+         </fieldset>
+    </form>
+
+
+</body>
+</html>
