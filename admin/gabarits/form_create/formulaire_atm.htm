@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            
+            <div>
+            <legend>Please put your informations</legend>
+            <div><p>les champs marqué d'un "*" sont obligatoires</p></div>
+            <div>
+                <select name="atm" id="atm" required="required">
+                    <option value="">Condition atmosphérique :*</option>
+                    <option value="%UUIDatm%">Non renseigné</option>
+                    <option value="%UUIDatm%">Anormal</option>
+                    <option value="%UUIDatm%">Pluie légère</option>
+                    <option value="%UUIDatm%">Pluie forte</option>
+                    <option value="%UUIDatm%">neige - grêle</option>
+                    <option value="%UUIDatm%">Brouillard - fumée</option>
+                    <option value="%UUIDatm%">Vent fort - tempête</option>
+                    <option value="%UUIDatm%">temps éblouissant </option>
+                    <option value="%UUIDatm%">temps couvert</option>
+                    <option value="%UUIDatm%">Autre</option>
+                </select>
+            </div>
+                    
+        <input type="hidden" value="%UUID%">
+</div>
+    
+            <input class="boutons" type="reset">
+            <input class="boutons" type="submit">
+    
+         </fieldset>
+    </form>
+</body>
+</html>

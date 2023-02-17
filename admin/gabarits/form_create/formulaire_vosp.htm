@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            
+            <div>
+            <legend>Please put your informations</legend>
+            <div><p>les champs marqué d'un "*" sont obligatoires</p></div>
+            <div>
+                <select name="vosp" id="vosp" required="required">
+                    <option value="">Signale l’existence d’une voie réservée, indépendamment du fait que l’accident ait lieu ou non sur 
+                        cette voie.  :*</option>
+                    <option value="%UUIDvosp%">Non-renseigné</option>
+                    <option value="%UUIDvosp%">à sens unique</option>
+                    <option value="%UUIDvosp%">Bidirectionnelle</option>
+                    <option value="%UUIDvosp%">à chaussées séparées</option>
+                    <option value="%UUIDvosp%">Avec voies d'affection variable</option>
+                </select>
+            </div>
+                    
+        <input type="hidden" value="%UUID%">
+</div>
+    
+            <input class="boutons" type="reset">
+            <input class="boutons" type="submit">
+    
+         </fieldset>
+    </form>
+</body>
+</html>
