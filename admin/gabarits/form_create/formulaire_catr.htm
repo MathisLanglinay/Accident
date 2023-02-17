@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            
+            <div>
+            <legend>Please put your informations</legend>
+            <div><p>les champs marqué d'un "*" sont obligatoires</p></div>
+            <div>
+                <select name="catr" id="catr" required="required">
+                    <option value="">Catégorie de route :*</option>
+                    <option value="%UUIDcatr%">Autoroute</option>
+                    <option value="%UUIDcatr%">Nationale</option>
+                    <option value="%UUIDcatr%">Départementale</option>
+                    <option value="%UUIDcatr%">Voie communales</option>
+                    <option value="%UUIDcatr%">Hors réseau public</option>
+                    <option value="%UUIDcatr%">Par de stationnement ouvert à la circulation publique </option>
+                    <option value="%UUIDcatr%">Route de métropole urbaine</option>
+                    <option value="%UUIDcatr%">Autre </option>
+                </select>
+            </div>
+                    
+        <input type="hidden" value="%UUID%">
+</div>
+    
+            <input class="boutons" type="reset">
+            <input class="boutons" type="submit">
+    
+         </fieldset>
+    </form>
+</body>
+</html>

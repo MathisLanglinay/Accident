@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            
+            <div>
+            <legend>Please put your informations</legend>
+            <div><p>les champs marqué d'un "*" sont obligatoires</p></div>
+            <div>
+                <select name="circ" id="circ" required="required">
+                    <option value="">Régime de circulation :*</option>
+                    <option value="%UUIDcirc%">Non-renseigné</option>
+                    <option value="%UUIDcirc%">à sens unique</option>
+                    <option value="%UUIDcirc%">Bidirectionnelle</option>
+                    <option value="%UUIDcirc%">à chaussées séparées</option>
+                    <option value="%UUIDcirc%">Avec voies d'affection variable</option>
+                </select>
+            </div>
+                    
+        <input type="hidden" value="%UUID%">
+</div>
+    
+            <input class="boutons" type="reset">
+            <input class="boutons" type="submit">
+    
+         </fieldset>
+    </form>
+</body>
+</html>

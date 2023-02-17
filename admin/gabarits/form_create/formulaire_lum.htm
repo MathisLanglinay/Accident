@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            
+            <div>
+            <legend>Please put your informations</legend>
+            <div><p>les champs marqué d'un "*" sont obligatoires</p></div>
+            <div>
+                <select name="lum" id="lum" required="required">
+                    <option value="">Lumière :*</option>
+                    <option value="%UUIDlum%">Plein jour</option>
+                    <option value="%UUIDlum%">Crépuscule ou aube</option>
+                    <option value="%UUIDlum%">Nuit sans éclairage public</option>
+                    <option value="%UUIDlum%">Nuit avec éclairage public non allumé</option>
+                    <option value="%UUIDlum%">Nuit avec éclairage public allumé</option>
+                </select>
+            </div>
+                    
+        <input type="hidden" value="%UUID%">
+</div>
+    
+            <input class="boutons" type="reset">
+            <input class="boutons" type="submit">
+    
+         </fieldset>
+    </form>
+</body>
+</html>

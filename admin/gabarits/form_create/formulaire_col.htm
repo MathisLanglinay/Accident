@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            
+            <div>
+            <legend>Please put your informations</legend>
+            <div><p>les champs marqué d'un "*" sont obligatoires</p></div>
+            <div>
+                <select name="col" id="col" required="required">
+                    <option value="">Type de collision :*</option>
+                    <option value="%UUIDcol%">Non renseigné</option>
+                    <option value="%UUIDcol%">Deux véhicules - frontale</option>
+                    <option value="%UUIDcol%">Deux véhicules - par derrière</option>
+                    <option value="%UUIDcol%">Deux véhicules - par le côté</option>
+                    <option value="%UUIDcol%">Trois véhicules et plus - en chaîne</option>
+                    <option value="%UUIDcol%">Trois véhicules et plus - collisions multiples </option>
+                    <option value="%UUIDcol%">Autre collision</option>
+                    <option value="%UUIDcol%">Sans collision </option>
+                </select>
+            </div>
+                    
+        <input type="hidden" value="%UUID%">
+</div>
+    
+            <input class="boutons" type="reset">
+            <input class="boutons" type="submit">
+    
+         </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            
+            <div>
+            <legend>Please put your informations</legend>
+            <div><p>les champs marqué d'un "*" sont obligatoires</p></div>
+            <div>
+                <select name="int" id="int" required="required">
+                    <option value="">Intersection :*</option>
+                    <option value="%UUIDint%">Hors intersection</option>
+                    <option value="%UUIDint%">Intersection en X</option>
+                    <option value="%UUIDint%">Intersection en T</option>
+                    <option value="%UUIDint%">Intersection en Y</option>
+                    <option value="%UUIDint%">Intersection à plus de 4 branches</option>
+                    <option value="%UUIDint%">Giratoire</option>
+                    <option value="%UUIDint%">Place</option>
+                    <option value="%UUIDint%">Passage à niveau</option>
+                    <option value="%UUIDint%">Autre intersection</option>
+                </select>
+            </div>
+                    
+        <input type="hidden" value="%UUID%">
+</div>
+    
+            <input class="boutons" type="reset">
+            <input class="boutons" type="submit">
+    
+         </fieldset>
+    </form>
+</body>
+</html>
